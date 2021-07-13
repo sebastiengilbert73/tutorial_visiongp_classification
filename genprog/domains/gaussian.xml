@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arithmetics>
+	<function>
+		<name>gaussian_scaled</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+</arithmetics>

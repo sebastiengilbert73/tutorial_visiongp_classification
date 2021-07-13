@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arithmetic>
+	<function>
+		<name>addition_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>subtraction_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>multiplication_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>division_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>greaterThan_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>greaterThanOrEqual_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>lessThan_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>lessThanOrEqual_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>almostEqual_float</name>
+		<parameter_types>[float, float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>inverse_bool</name>
+		<parameter_types>[bool]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>log</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>exp</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>pow_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>if_float</name>
+		<parameter_types>[bool, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>sin</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>cos</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>tan</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>atan</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>sigmoid</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>ispositive_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>isinbetween_float</name>
+		<parameter_types>[float, float, float]</parameter_types>
+		<return_type>bool</return_type>
+	</function>
+	<function>
+		<name>inverse_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>abs_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>relu_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>sign_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>max_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>min_float</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>gaussian</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>gaussian_scaled</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>pow2_float</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>sqrt</name>
+		<parameter_types>[float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>windowed_linear</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>window</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>ramp_increasing</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>ramp_decreasing</name>
+		<parameter_types>[float, float, float, float]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+</arithmetic>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<image_processing>
+	<function>
+		<name>threshold</name>
+		<parameter_types>[grayscale_image, int]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>mask_sum</name>
+		<parameter_types>[binary_image]</parameter_types>
+		<return_type>int</return_type>
+	</function>
+	<function>
+		<name>tunnel_grayscale_image</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>concat_floats</name>
+		<parameter_types>[float, float]</parameter_types>
+		<return_type>vector2</return_type>
+	</function>
+	<function>
+		<name>mask_average</name>
+		<parameter_types>[binary_image]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>image_average0to1</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>sobel1_x</name>
+		<parameter_types>[grayscale_image, float]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>sobel1_y</name>
+		<parameter_types>[grayscale_image, float]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>erode</name>
+		<parameter_types>[binary_image]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>dilate</name>
+		<parameter_types>[binary_image]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>mask_image</name>
+		<parameter_types>[grayscale_image, binary_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>blur3</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>laplacian1</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>laplacian3</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>min</name>
+		<parameter_types>[grayscale_image, grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>max</name>
+		<parameter_types>[grayscale_image, grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>linear_combination</name>
+		<parameter_types>[float, grayscale_image, float, grayscale_image, float]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>intersection</name>
+		<parameter_types>[binary_image, binary_image]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>union</name>
+		<parameter_types>[binary_image, binary_image]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>inverse_mask</name>
+		<parameter_types>[binary_image]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>scharr1_x</name>
+		<parameter_types>[grayscale_image, float]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>scharr1_y</name>
+		<parameter_types>[grayscale_image, float]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>correlation3x3</name>
+		<parameter_types>[grayscale_image, kernel3x3]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+	<function>
+		<name>average_kernel3x3</name>
+		<parameter_types>[kernel3x3, kernel3x3]</parameter_types>
+		<return_type>kernel3x3</return_type>
+	</function>
+	<function>
+		<name>max_kernel3x3</name>
+		<parameter_types>[kernel3x3, kernel3x3]</parameter_types>
+		<return_type>kernel3x3</return_type>
+	</function>
+	<function>
+		<name>min_kernel3x3</name>
+		<parameter_types>[kernel3x3, kernel3x3]</parameter_types>
+		<return_type>kernel3x3</return_type>
+	</function>
+	<function>
+		<name>intersection_over_union</name>
+		<parameter_types>[binary_image, binary_image]</parameter_types>
+		<return_type>float</return_type>
+	</function>
+	<function>
+		<name>canny</name>
+		<parameter_types>[grayscale_image, int, int]</parameter_types>
+		<return_type>binary_image</return_type>
+	</function>
+	<function>
+		<name>corner_harris</name>
+		<parameter_types>[grayscale_image]</parameter_types>
+		<return_type>grayscale_image</return_type>
+	</function>
+</image_processing>
